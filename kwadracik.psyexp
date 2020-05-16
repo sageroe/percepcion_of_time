@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2020.1.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="kwadracik" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <PolygonComponent name="polygon">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="9" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="polygon" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="set every frame" val="(corx, cory)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="rectangle" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="code"/>
+        <Param name="startEstim" updates="None" val="0" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="frame N" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="cm" valType="str"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="instr">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Zobaczysz kwadrat,&amp;#10;gdy zniknie Twoim zadaniem będzie trzymanie spacji tak długo jak kwadrat&amp;#10;był na ekranie" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="move_it">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('corx', 0.3333333333333333), ('cory', 0.3333333333333333)]), OrderedDict([('corx', 0.6666666666666666), ('cory', 0.6666666666666666)]), OrderedDict([('corx', 1.0), ('cory', 1.0)]), OrderedDict([('corx', 1.3333333333333333), ('cory', 1.3333333333333333)]), OrderedDict([('corx', 1.6666666666666665), ('cory', 1.6666666666666665)]), OrderedDict([('corx', 1.9999999999999998), ('cory', 1.9999999999999998)]), OrderedDict([('corx', 2.333333333333333), ('cory', 2.333333333333333)]), OrderedDict([('corx', 2.6666666666666665), ('cory', 2.6666666666666665)]), OrderedDict([('corx', 3.0), ('cory', 3.0)]), OrderedDict([('corx', 3.3333333333333335), ('cory', 3.3333333333333335)]), OrderedDict([('corx', 3.666666666666667), ('cory', 3.666666666666667)]), OrderedDict([('corx', 4.0), ('cory', 4.0)]), OrderedDict([('corx', 4.333333333333333), ('cory', 4.333333333333333)]), OrderedDict([('corx', 4.666666666666666), ('cory', 4.666666666666666)]), OrderedDict([('corx', 4.999999999999999), ('cory', 4.999999999999999)]), OrderedDict([('corx', 5.333333333333332), ('cory', 5.333333333333332)]), OrderedDict([('corx', 5.666666666666665), ('cory', 5.666666666666665)]), OrderedDict([('corx', 5.999999999999998), ('cory', 5.999999999999998)]), OrderedDict([('corx', 6.333333333333331), ('cory', 6.333333333333331)]), OrderedDict([('corx', 6.666666666666664), ('cory', 6.666666666666664)]), OrderedDict([('corx', 6.999999999999997), ('cory', 6.999999999999997)]), OrderedDict([('corx', 7.33333333333333), ('cory', 7.33333333333333)]), OrderedDict([('corx', 7.666666666666663), ('cory', 7.666666666666663)]), OrderedDict([('corx', 7.9999999999999964), ('cory', 7.9999999999999964)]), OrderedDict([('corx', 8.33333333333333), ('cory', 8.33333333333333)]), OrderedDict([('corx', 8.666666666666664), ('cory', 8.666666666666664)]), OrderedDict([('corx', 8.999999999999998), ('cory', 8.999999999999998)]), OrderedDict([('corx', 9.333333333333332), ('cory', 9.333333333333332)]), OrderedDict([('corx', 9.666666666666666), ('cory', 9.666666666666666)]), OrderedDict([('corx', 10.0), ('cory', 10.0)]), OrderedDict([('corx', 10.333333333333334), ('cory', 10.333333333333334)]), OrderedDict([('corx', 10.666666666666668), ('cory', 10.666666666666668)]), OrderedDict([('corx', 11.000000000000002), ('cory', 11.000000000000002)]), OrderedDict([('corx', 11.333333333333336), ('cory', 11.333333333333336)]), OrderedDict([('corx', 11.66666666666667), ('cory', 11.66666666666667)]), OrderedDict([('corx', 12.000000000000004), ('cory', 12.000000000000004)]), OrderedDict([('corx', 12.333333333333337), ('cory', 12.333333333333337)]), OrderedDict([('corx', 12.666666666666671), ('cory', 12.666666666666671)]), OrderedDict([('corx', 13.000000000000005), ('cory', 13.000000000000005)]), OrderedDict([('corx', 13.33333333333334), ('cory', 13.33333333333334)]), OrderedDict([('corx', 13.666666666666673), ('cory', 13.666666666666673)]), OrderedDict([('corx', 14.000000000000007), ('cory', 14.000000000000007)]), OrderedDict([('corx', 14.333333333333341), ('cory', 14.333333333333341)]), OrderedDict([('corx', 14.666666666666675), ('cory', 14.666666666666675)]), OrderedDict([('corx', 15.000000000000009), ('cory', 15.000000000000009)]), OrderedDict([('corx', 15.333333333333343), ('cory', 15.333333333333343)]), OrderedDict([('corx', 15.666666666666677), ('cory', 15.666666666666677)]), OrderedDict([('corx', 16.00000000000001), ('cory', 16.00000000000001)]), OrderedDict([('corx', 16.333333333333343), ('cory', 16.333333333333343)]), OrderedDict([('corx', 16.666666666666675), ('cory', 16.666666666666675)]), OrderedDict([('corx', 17.000000000000007), ('cory', 17.000000000000007)]), OrderedDict([('corx', 17.33333333333334), ('cory', 17.33333333333334)]), OrderedDict([('corx', 17.66666666666667), ('cory', 17.66666666666667)]), OrderedDict([('corx', 18.000000000000004), ('cory', 18.000000000000004)]), OrderedDict([('corx', 18.333333333333336), ('cory', 18.333333333333336)]), OrderedDict([('corx', 18.666666666666668), ('cory', 18.666666666666668)]), OrderedDict([('corx', 19.0), ('cory', 19.0)]), OrderedDict([('corx', 19.333333333333332), ('cory', 19.333333333333332)]), OrderedDict([('corx', 19.666666666666664), ('cory', 19.666666666666664)]), OrderedDict([('corx', 19.999999999999996), ('cory', 19.999999999999996)]), OrderedDict([('corx', 20.33333333333333), ('cory', 20.33333333333333)]), OrderedDict([('corx', 20.66666666666666), ('cory', 20.66666666666666)]), OrderedDict([('corx', 20.999999999999993), ('cory', 20.999999999999993)]), OrderedDict([('corx', 21.333333333333325), ('cory', 21.333333333333325)]), OrderedDict([('corx', 21.666666666666657), ('cory', 21.666666666666657)]), OrderedDict([('corx', 21.99999999999999), ('cory', 21.99999999999999)]), OrderedDict([('corx', 22.33333333333332), ('cory', 22.33333333333332)]), OrderedDict([('corx', 22.666666666666654), ('cory', 22.666666666666654)]), OrderedDict([('corx', 22.999999999999986), ('cory', 22.999999999999986)]), OrderedDict([('corx', 23.333333333333318), ('cory', 23.333333333333318)]), OrderedDict([('corx', 23.66666666666665), ('cory', 23.66666666666665)]), OrderedDict([('corx', 23.999999999999982), ('cory', 23.999999999999982)]), OrderedDict([('corx', 24.333333333333314), ('cory', 24.333333333333314)]), OrderedDict([('corx', 24.666666666666647), ('cory', 24.666666666666647)]), OrderedDict([('corx', 24.99999999999998), ('cory', 24.99999999999998)]), OrderedDict([('corx', 25.33333333333331), ('cory', 25.33333333333331)]), OrderedDict([('corx', 25.666666666666643), ('cory', 25.666666666666643)]), OrderedDict([('corx', 25.999999999999975), ('cory', 25.999999999999975)]), OrderedDict([('corx', 26.333333333333307), ('cory', 26.333333333333307)]), OrderedDict([('corx', 26.66666666666664), ('cory', 26.66666666666664)]), OrderedDict([('corx', 26.99999999999997), ('cory', 26.99999999999997)]), OrderedDict([('corx', 27.333333333333304), ('cory', 27.333333333333304)]), OrderedDict([('corx', 27.666666666666636), ('cory', 27.666666666666636)]), OrderedDict([('corx', 27.999999999999968), ('cory', 27.999999999999968)]), OrderedDict([('corx', 28.3333333333333), ('cory', 28.3333333333333)]), OrderedDict([('corx', 28.666666666666632), ('cory', 28.666666666666632)]), OrderedDict([('corx', 28.999999999999964), ('cory', 28.999999999999964)]), OrderedDict([('corx', 29.333333333333297), ('cory', 29.333333333333297)]), OrderedDict([('corx', 29.66666666666663), ('cory', 29.66666666666663)]), OrderedDict([('corx', 29.99999999999996), ('cory', 29.99999999999996)]), OrderedDict([('corx', 30.333333333333293), ('cory', 30.333333333333293)]), OrderedDict([('corx', 30.666666666666625), ('cory', 30.666666666666625)]), OrderedDict([('corx', 30.999999999999957), ('cory', 30.999999999999957)]), OrderedDict([('corx', 31.33333333333329), ('cory', 31.33333333333329)]), OrderedDict([('corx', 31.66666666666662), ('cory', 31.66666666666662)]), OrderedDict([('corx', 31.999999999999954), ('cory', 31.999999999999954)]), OrderedDict([('corx', 32.333333333333286), ('cory', 32.333333333333286)]), OrderedDict([('corx', 32.66666666666662), ('cory', 32.66666666666662)]), OrderedDict([('corx', 32.99999999999996), ('cory', 32.99999999999996)]), OrderedDict([('corx', 33.33333333333329), ('cory', 33.33333333333329)]), OrderedDict([('corx', 33.66666666666663), ('cory', 33.66666666666663)]), OrderedDict([('corx', 33.999999999999964), ('cory', 33.999999999999964)]), OrderedDict([('corx', 34.3333333333333), ('cory', 34.3333333333333)]), OrderedDict([('corx', 34.666666666666636), ('cory', 34.666666666666636)]), OrderedDict([('corx', 34.99999999999997), ('cory', 34.99999999999997)]), OrderedDict([('corx', 35.33333333333331), ('cory', 35.33333333333331)]), OrderedDict([('corx', 35.66666666666664), ('cory', 35.66666666666664)]), OrderedDict([('corx', 35.99999999999998), ('cory', 35.99999999999998)]), OrderedDict([('corx', 36.333333333333314), ('cory', 36.333333333333314)]), OrderedDict([('corx', 36.66666666666665), ('cory', 36.66666666666665)]), OrderedDict([('corx', 36.999999999999986), ('cory', 36.999999999999986)]), OrderedDict([('corx', 37.33333333333332), ('cory', 37.33333333333332)]), OrderedDict([('corx', 37.66666666666666), ('cory', 37.66666666666666)]), OrderedDict([('corx', 37.99999999999999), ('cory', 37.99999999999999)]), OrderedDict([('corx', 38.33333333333333), ('cory', 38.33333333333333)]), OrderedDict([('corx', 38.666666666666664), ('cory', 38.666666666666664)]), OrderedDict([('corx', 39.0), ('cory', 39.0)]), OrderedDict([('corx', 39.333333333333336), ('cory', 39.333333333333336)]), OrderedDict([('corx', 39.66666666666667), ('cory', 39.66666666666667)]), OrderedDict([('corx', 40.00000000000001), ('cory', 40.00000000000001)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="..\..\Moje\kondycje.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="120" valType="code"/>
+      <Param name="name" updates="None" val="move_it" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="move_it"/>
+  </Flow>
+</PsychoPy2experiment>
